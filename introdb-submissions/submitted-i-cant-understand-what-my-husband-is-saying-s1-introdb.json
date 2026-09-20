@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt4045510",
+      "season": 1,
+      "episode": 1,
+      "tvdb_id": 285357,
+      "segment_type": "outro",
+      "start_sec": 182,
+      "end_sec": 214.215
+    },
+    {
+      "imdb_id": "tt4045510",
+      "season": 1,
+      "episode": 2,
+      "tvdb_id": 285357,
+      "segment_type": "outro",
+      "start_sec": 181.2,
+      "end_sec": 213.215
+    },
+    {
+      "imdb_id": "tt4045510",
+      "season": 1,
+      "episode": 3,
+      "tvdb_id": 285357,
+      "segment_type": "outro",
+      "start_sec": 181.1,
+      "end_sec": 213.213
+    },
+    {
+      "imdb_id": "tt4045510",
+      "season": 1,
+      "episode": 4,
+      "tvdb_id": 285357,
+      "segment_type": "outro",
+      "start_sec": 181,
+      "end_sec": 213.215
+    },
+    {
+      "imdb_id": "tt4045510",
+      "season": 1,
+      "episode": 5,
+      "tvdb_id": 285357,
+      "segment_type": "outro",
+      "start_sec": 181.1,
+      "end_sec": 213.215
+    },
+    {
+      "imdb_id": "tt4045510",
+      "season": 1,
+      "episode": 6,
+      "tvdb_id": 285357,
+      "segment_type": "outro",
+      "start_sec": 181.3,
+      "end_sec": 213.213
+    },
+    {
+      "imdb_id": "tt4045510",
+      "season": 1,
+      "episode": 7,
+      "tvdb_id": 285357,
+      "segment_type": "outro",
+      "start_sec": 181.2,
+      "end_sec": 213.215
+    },
+    {
+      "imdb_id": "tt4045510",
+      "season": 1,
+      "episode": 8,
+      "tvdb_id": 285357,
+      "segment_type": "outro",
+      "start_sec": 181.3,
+      "end_sec": 213.213
+    },
+    {
+      "imdb_id": "tt4045510",
+      "season": 1,
+      "episode": 9,
+      "tvdb_id": 285357,
+      "segment_type": "outro",
+      "start_sec": 183.4,
+      "end_sec": 213.215
+    },
+    {
+      "imdb_id": "tt4045510",
+      "season": 1,
+      "episode": 10,
+      "tvdb_id": 285357,
+      "segment_type": "outro",
+      "start_sec": 181.3,
+      "end_sec": 213.215
+    },
+    {
+      "imdb_id": "tt4045510",
+      "season": 1,
+      "episode": 12,
+      "tvdb_id": 285357,
+      "segment_type": "outro",
+      "start_sec": 180,
+      "end_sec": 213.215
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt13949068",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 1593,
+      "end_sec": 1717,
+      "tvdb_id": 430709
+    },
+    {
+      "imdb_id": "tt13949068",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 1547,
+      "end_sec": 1670,
+      "tvdb_id": 430709
+    },
+    {
+      "imdb_id": "tt13949068",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 3,
+      "start_sec": 1488,
+      "end_sec": 1611,
+      "tvdb_id": 430709
+    },
+    {
+      "imdb_id": "tt13949068",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 4,
+      "start_sec": 1589,
+      "end_sec": 1712,
+      "tvdb_id": 430709
+    },
+    {
+      "imdb_id": "tt13949068",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 5,
+      "start_sec": 1657,
+      "end_sec": 1750,
+      "tvdb_id": 430709
+    },
+    {
+      "imdb_id": "tt13949068",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 6,
+      "start_sec": 1647,
+      "end_sec": 1779.008,
+      "tvdb_id": 430709
+    }
+  ]
+}

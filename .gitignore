@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.chapters.xml
+*.ffmeta
+*_introdb_exports/
+

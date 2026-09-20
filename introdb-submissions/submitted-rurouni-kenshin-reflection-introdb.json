@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt0294885",
+      "tvdb_id": 395150,
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 2088,
+      "end_sec": 2260.275
+    },
+    {
+      "imdb_id": "tt0294885",
+      "tvdb_id": 395150,
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 2552,
+      "end_sec": 2685
+    }
+  ]
+}

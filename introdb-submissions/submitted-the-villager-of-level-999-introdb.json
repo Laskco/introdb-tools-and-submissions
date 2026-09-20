@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt38262097",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 119,
+      "end_sec": 208
+    },
+    {
+      "imdb_id": "tt38262097",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 1339,
+      "end_sec": 1430.058
+    },
+    {
+      "imdb_id": "tt38262097",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 26,
+      "end_sec": 115
+    },
+    {
+      "imdb_id": "tt38262097",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 1339,
+      "end_sec": 1430.144
+    }
+  ]
+}

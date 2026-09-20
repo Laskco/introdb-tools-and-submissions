@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt3621678",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 235.026,
+      "end_sec": 325.116,
+      "tvdb_id": 461474
+    },
+    {
+      "imdb_id": "tt3621678",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 1540.164,
+      "end_sec": 1632.807,
+      "tvdb_id": 461474
+    },
+    {
+      "imdb_id": "tt3621678",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 106.023,
+      "end_sec": 196.113,
+      "tvdb_id": 461474
+    },
+    {
+      "imdb_id": "tt3621678",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 1352.059,
+      "end_sec": 1442.107,
+      "tvdb_id": 461474
+    },
+    {
+      "imdb_id": "tt3621678",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 3,
+      "start_sec": 128.003,
+      "end_sec": 218.009,
+      "tvdb_id": 461474
+    },
+    {
+      "imdb_id": "tt3621678",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 3,
+      "start_sec": 1360.025,
+      "end_sec": 1452.627,
+      "tvdb_id": 461474
+    },
+    {
+      "imdb_id": "tt3621678",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 4,
+      "start_sec": 204.996,
+      "end_sec": 295.045,
+      "tvdb_id": 461474
+    },
+    {
+      "imdb_id": "tt3621678",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 4,
+      "start_sec": 1428.135,
+      "end_sec": 1520.862,
+      "tvdb_id": 461474
+    },
+    {
+      "imdb_id": "tt3621678",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 5,
+      "start_sec": 34.034,
+      "end_sec": 124.124,
+      "tvdb_id": 461474
+    },
+    {
+      "imdb_id": "tt3621678",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 5,
+      "start_sec": 1540.08,
+      "end_sec": 1633.307,
+      "tvdb_id": 461474
+    }
+  ]
+}

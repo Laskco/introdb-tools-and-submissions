@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt39551330",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 139.013,
+      "end_sec": 226.975,
+      "tvdb_id": 473423
+    },
+    {
+      "imdb_id": "tt39551330",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 1332,
+      "end_sec": 1422.004,
+      "tvdb_id": 473423
+    }
+  ]
+}

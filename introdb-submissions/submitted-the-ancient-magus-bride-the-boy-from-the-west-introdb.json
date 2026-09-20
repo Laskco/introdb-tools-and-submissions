@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt15400722",
+      "season": 1,
+      "episode": 1,
+      "tvdb_id": 411635,
+      "segment_type": "outro",
+      "start_sec": 1245.035,
+      "end_sec": 1369.373
+    },
+    {
+      "imdb_id": "tt15400722",
+      "season": 1,
+      "episode": 2,
+      "tvdb_id": 411635,
+      "segment_type": "outro",
+      "start_sec": 1245.035,
+      "end_sec": 1369.373
+    },
+    {
+      "imdb_id": "tt15400722",
+      "season": 1,
+      "episode": 3,
+      "tvdb_id": 411635,
+      "segment_type": "outro",
+      "start_sec": 1206.539,
+      "end_sec": 1327.66
+    }
+  ]
+}

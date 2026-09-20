@@ -1,0 +1,196 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 85.98,
+      "end_sec": 175.98
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 1339.35,
+      "end_sec": 1424.66
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 38.53,
+      "end_sec": 128.53
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 1309.12,
+      "end_sec": 1396.53
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 3,
+      "start_sec": 67.55,
+      "end_sec": 157.55
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 3,
+      "start_sec": 1309.11,
+      "end_sec": 1394.57
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 4,
+      "start_sec": 77.55,
+      "end_sec": 167.55
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 4,
+      "start_sec": 1308.93,
+      "end_sec": 1394.87
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 5,
+      "start_sec": 34.52,
+      "end_sec": 124.52
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 5,
+      "start_sec": 1309.17,
+      "end_sec": 1394.03
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 6,
+      "start_sec": 24.5,
+      "end_sec": 114.5
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 6,
+      "start_sec": 1309.38,
+      "end_sec": 1395.87
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 7,
+      "start_sec": 75.56,
+      "end_sec": 165.56
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 7,
+      "start_sec": 1309.58,
+      "end_sec": 1395.79
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 8,
+      "start_sec": 39.52,
+      "end_sec": 129.52
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 8,
+      "start_sec": 1309.43,
+      "end_sec": 1394.34
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 9,
+      "start_sec": 28.51,
+      "end_sec": 118.51
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 9,
+      "start_sec": 1308.86,
+      "end_sec": 1396.96
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 10,
+      "start_sec": 65.54,
+      "end_sec": 155.54
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 10,
+      "start_sec": 1309.04,
+      "end_sec": 1394.33
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 11,
+      "start_sec": 62.57,
+      "end_sec": 152.57
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 11,
+      "start_sec": 1308.49,
+      "end_sec": 1393.96
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 12,
+      "start_sec": 31.54,
+      "end_sec": 121.54
+    },
+    {
+      "imdb_id": "tt1516294",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 12,
+      "start_sec": 1257.33,
+      "end_sec": 1342.52
+    }
+  ]
+}

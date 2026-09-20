@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt0988935",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 51,
+      "start_sec": 73.075,
+      "end_sec": 163.038
+    },
+    {
+      "imdb_id": "tt0988935",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 51,
+      "start_sec": 1197.99,
+      "end_sec": 1380.096
+    }
+  ]
+}
