@@ -1,5 +1,7 @@
 # IntroDB Tools and Submissions
 
+> Personal archival repository. It is published for reference only; no support, issue triage, pull-request review, or feature work is provided.
+
 Windows utilities for finding or relabeling opening and ending chapter markers, plus finalized IntroDB submission JSON archives.
 
 ## Included tools
@@ -20,4 +22,3 @@ The detector modifies chapter metadata in place. Review generated markers before
 ## Submission archive
 
 `introdb-submissions/` holds one finalized JSON archive per submitted show. These files contain IMDb/TVDB identifiers, season and episode numbers, segment types, and timestamps only. No API keys, browser sessions, accounts, media files, or local machine paths are included.
-
