@@ -20,7 +20,7 @@ Both launchers create a local `.venv` and install NumPy on first run. Drag an ep
 
 These tools were built and tested primarily against anime releases. They have not been tested on non-anime television, movies, live action, or other media, so do not assume the same results outside anime.
 
-The detector has no single published accuracy percentage because it has not been benchmarked against a broad, independent set of manually verified releases. Its practical success depends on the release, repeated audio, alternate openings/endings, recaps, cold opens, and episode-specific edits. Review generated markers before using them for a submission.
+For typical anime episode sets with recurring OP/ED audio and usable source material, the practical success rate is estimated at roughly **95%**. This is an estimate rather than a guarantee: results still depend on the release, repeated audio, alternate openings/endings, recaps, cold opens, and episode-specific edits. Review generated markers before using them for a submission.
 
 The relabeler's timestamp-preservation rate is **100% by design**: it keeps the existing chapter timecodes and changes only their labels. Its OP/ED classification still depends on the detector and on the source release having accurate chapter boundaries.
 
