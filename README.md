@@ -2,7 +2,7 @@
 
 > Personal archival repository. It is published for reference only; no support, issue triage, pull-request review, or feature work is provided.
 
-Windows utilities for finding or relabeling opening and ending chapter markers, plus finalized IntroDB submission JSON archives.
+Windows utilities for preparing anime opening and ending timestamps for IntroDB, plus finalized IntroDB submission JSON archives.
 
 ## Included tools
 
@@ -11,14 +11,18 @@ Windows utilities for finding or relabeling opening and ending chapter markers, 
 
 Both launchers create a local `.venv` and install NumPy on first run. Drag an episode folder onto the appropriate `.bat` file.
 
+## What the Tools Are For
+
+- **OP/ED detector:** primarily for anime episode folders that have no usable chapters. It compares audio across episodes to find repeated opening and ending sequences, writes `OP`, `Episode`, `ED`, and `Preview` chapter markers, and can export the reviewed timestamps as IntroDB JSON.
+- **Chapter relabeler:** primarily for anime releases that already have correctly timed but generic or numbered chapter markers. It identifies which existing intervals correspond to the OP and ED, then changes only those labels to `OP` and `ED` while retaining the release's original chapter positions.
+
 ## Scope and Reliability
 
 These tools were built and tested primarily against anime releases. They have not been tested on non-anime television, movies, live action, or other media, so do not assume the same results outside anime.
 
-There is no measured universal success rate. Results depend on the release, chapter quality, repeated audio, alternate openings/endings, recaps, cold opens, and episode-specific edits. Always review the generated markers before using them for a submission.
+The detector has no single published accuracy percentage because it has not been benchmarked against a broad, independent set of manually verified releases. Its practical success depends on the release, repeated audio, alternate openings/endings, recaps, cold opens, and episode-specific edits. Review generated markers before using them for a submission.
 
-- **OP/ED detector:** compares episode audio to locate recurring openings and endings, then writes `OP` and `ED` chapter markers. It is most useful for standard anime seasons whose opening and ending music recurs across episodes. It can miss or shorten segments with unique audio, abrupt edits, or unusual episode structure.
-- **Chapter relabeler:** preserves existing chapter timestamps and relabels the intervals the detector identifies as `OP` and `ED`. It is most reliable when the release already has accurate chapter boundaries. It does not create trustworthy timing where the source chapters are wrong or absent.
+The relabeler's timestamp-preservation rate is **100% by design**: it keeps the existing chapter timecodes and changes only their labels. Its OP/ED classification still depends on the detector and on the source release having accurate chapter boundaries.
 
 ## Requirements
 
