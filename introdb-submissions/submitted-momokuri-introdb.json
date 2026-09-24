@@ -2,15 +2,6 @@
   "items": [
     {
       "imdb_id": "tt5905148",
-      "segment_type": "outro",
-      "season": 1,
-      "episode": 1,
-      "start_sec": 1320.986,
-      "end_sec": 1410.993,
-      "tvdb_id": 299746
-    },
-    {
-      "imdb_id": "tt5905148",
       "segment_type": "intro",
       "season": 1,
       "episode": 2,

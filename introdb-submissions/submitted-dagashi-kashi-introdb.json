@@ -51,7 +51,7 @@
       "season": 1,
       "episode": 4,
       "start_sec": 0,
-      "end_sec": 90.005,
+      "end_sec": 89.53,
       "tvdb_id": 303725
     },
     {
@@ -96,7 +96,7 @@
       "season": 1,
       "episode": 7,
       "start_sec": 0,
-      "end_sec": 90.005,
+      "end_sec": 89.53,
       "tvdb_id": 303725
     },
     {
@@ -203,8 +203,8 @@
       "segment_type": "intro",
       "season": 2,
       "episode": 1,
-      "start_sec": 39.039,
-      "end_sec": 129.004,
+      "start_sec": 38.861,
+      "end_sec": 128.557,
       "tvdb_id": 303725
     },
     {

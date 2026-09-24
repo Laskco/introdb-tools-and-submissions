@@ -6,7 +6,7 @@
       "season": 1,
       "episode": 1,
       "start_sec": 55.055,
-      "end_sec": 144.978,
+      "end_sec": 144.999,
       "tvdb_id": 308521
     },
     {
@@ -15,7 +15,7 @@
       "season": 1,
       "episode": 1,
       "start_sec": 1320.945,
-      "end_sec": 1420.961,
+      "end_sec": 1420.983,
       "tvdb_id": 308521
     },
     {
@@ -24,7 +24,7 @@
       "season": 1,
       "episode": 2,
       "start_sec": 57.057,
-      "end_sec": 146.98,
+      "end_sec": 147.001,
       "tvdb_id": 308521
     },
     {
@@ -33,7 +33,7 @@
       "season": 1,
       "episode": 2,
       "start_sec": 1319.985,
-      "end_sec": 1420.002,
+      "end_sec": 1420.024,
       "tvdb_id": 308521
     },
     {
@@ -42,7 +42,7 @@
       "season": 1,
       "episode": 3,
       "start_sec": 110.027,
-      "end_sec": 199.95,
+      "end_sec": 199.971,
       "tvdb_id": 308521
     },
     {
@@ -51,7 +51,7 @@
       "season": 1,
       "episode": 3,
       "start_sec": 1321.028,
-      "end_sec": 1421.045,
+      "end_sec": 1421.068,
       "tvdb_id": 308521
     },
     {
@@ -60,7 +60,7 @@
       "season": 1,
       "episode": 4,
       "start_sec": 75.993,
-      "end_sec": 165.999,
+      "end_sec": 166.02,
       "tvdb_id": 308521
     },
     {
@@ -69,7 +69,7 @@
       "season": 1,
       "episode": 4,
       "start_sec": 1319.985,
-      "end_sec": 1420.002,
+      "end_sec": 1420.024,
       "tvdb_id": 308521
     },
     {
@@ -77,8 +77,8 @@
       "segment_type": "intro",
       "season": 1,
       "episode": 5,
-      "start_sec": 98.99,
-      "end_sec": 188.96,
+      "start_sec": 99.003,
+      "end_sec": 188.97,
       "tvdb_id": 308521
     },
     {
@@ -86,7 +86,7 @@
       "segment_type": "outro",
       "season": 1,
       "episode": 5,
-      "start_sec": 1320.84,
+      "start_sec": 1320.851,
       "end_sec": 1420.92,
       "tvdb_id": 308521
     },
@@ -95,8 +95,8 @@
       "segment_type": "intro",
       "season": 1,
       "episode": 6,
-      "start_sec": 119.97,
-      "end_sec": 209.98,
+      "start_sec": 119.983,
+      "end_sec": 209.991,
       "tvdb_id": 308521
     },
     {
@@ -104,7 +104,7 @@
       "segment_type": "outro",
       "season": 1,
       "episode": 6,
-      "start_sec": 1320.0,
+      "start_sec": 1320.014,
       "end_sec": 1420.086,
       "tvdb_id": 308521
     },
@@ -113,8 +113,8 @@
       "segment_type": "intro",
       "season": 1,
       "episode": 7,
-      "start_sec": 55.055,
-      "end_sec": 144.895,
+      "start_sec": 55.555,
+      "end_sec": 145.395,
       "tvdb_id": 308521
     },
     {
@@ -131,8 +131,8 @@
       "segment_type": "intro",
       "season": 1,
       "episode": 8,
-      "start_sec": 52.928,
-      "end_sec": 142.809,
+      "start_sec": 52.991,
+      "end_sec": 142.914,
       "tvdb_id": 308521
     },
     {
@@ -149,8 +149,8 @@
       "segment_type": "intro",
       "season": 1,
       "episode": 9,
-      "start_sec": 182.974,
-      "end_sec": 272.898,
+      "start_sec": 183.474,
+      "end_sec": 273.398,
       "tvdb_id": 308521
     },
     {
@@ -167,8 +167,8 @@
       "segment_type": "intro",
       "season": 1,
       "episode": 10,
-      "start_sec": 91.974,
-      "end_sec": 182.939,
+      "start_sec": 91.992,
+      "end_sec": 182.456,
       "tvdb_id": 308521
     },
     {
@@ -176,8 +176,8 @@
       "segment_type": "outro",
       "season": 1,
       "episode": 10,
-      "start_sec": 1228.902,
-      "end_sec": 1326.9,
+      "start_sec": 1229.044,
+      "end_sec": 1326.946,
       "tvdb_id": 308521
     },
     {
@@ -185,8 +185,8 @@
       "segment_type": "intro",
       "season": 1,
       "episode": 11,
-      "start_sec": 107.174,
-      "end_sec": 196.939,
+      "start_sec": 107.182,
+      "end_sec": 196.964,
       "tvdb_id": 308521
     },
     {
@@ -194,7 +194,7 @@
       "segment_type": "outro",
       "season": 1,
       "episode": 11,
-      "start_sec": 1321.0,
+      "start_sec": 1320.993,
       "end_sec": 1421.045,
       "tvdb_id": 308521
     },
@@ -203,8 +203,8 @@
       "segment_type": "intro",
       "season": 1,
       "episode": 12,
-      "start_sec": 71.974,
-      "end_sec": 161.939,
+      "start_sec": 71.982,
+      "end_sec": 161.988,
       "tvdb_id": 308521
     },
     {
@@ -212,7 +212,7 @@
       "segment_type": "outro",
       "season": 1,
       "episode": 12,
-      "start_sec": 1320.0,
+      "start_sec": 1320.035,
       "end_sec": 1420.127,
       "tvdb_id": 308521
     }

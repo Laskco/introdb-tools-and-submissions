@@ -164,15 +164,6 @@
     },
     {
       "imdb_id": "tt13815676",
-      "segment_type": "outro",
-      "season": 1,
-      "episode": 11,
-      "start_sec": 1283.782,
-      "end_sec": 1451.032,
-      "tvdb_id": 249874
-    },
-    {
-      "imdb_id": "tt13815676",
       "segment_type": "intro",
       "season": 1,
       "episode": 12,

@@ -848,15 +848,6 @@
     },
     {
       "imdb_id": "tt0972713",
-      "segment_type": "outro",
-      "season": 2,
-      "episode": 24,
-      "start_sec": 1315.231,
-      "end_sec": 1419.002,
-      "tvdb_id": 78962
-    },
-    {
-      "imdb_id": "tt0972713",
       "segment_type": "intro",
       "season": 3,
       "episode": 1,
@@ -1258,15 +1249,6 @@
       "episode": 24,
       "start_sec": 0,
       "end_sec": 107.19,
-      "tvdb_id": 78962
-    },
-    {
-      "imdb_id": "tt0972713",
-      "segment_type": "outro",
-      "season": 3,
-      "episode": 24,
-      "start_sec": 1275.107,
-      "end_sec": 1413.037,
       "tvdb_id": 78962
     }
   ]

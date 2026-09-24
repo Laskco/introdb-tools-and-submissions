@@ -224,15 +224,6 @@
       "start_sec": 84.043,
       "end_sec": 174.049,
       "tvdb_id": 284132
-    },
-    {
-      "imdb_id": "tt3888026",
-      "segment_type": "outro",
-      "season": 1,
-      "episode": 13,
-      "start_sec": 1323.489,
-      "end_sec": 1422.09,
-      "tvdb_id": 284132
     }
   ]
 }

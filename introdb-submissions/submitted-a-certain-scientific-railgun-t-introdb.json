@@ -2,203 +2,195 @@
   "items": [
     {
       "imdb_id": "tt1515996",
-      "segment_type": "intro",
-      "season": 3,
-      "episode": 1,
-      "start_sec": 99.53,
-      "end_sec": 189.53
-    },
-    {
-      "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 1,
-      "start_sec": 1329.58,
-      "end_sec": 1420.84
+      "start_sec": 1315.606,
+      "end_sec": 1406.03
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 2,
-      "start_sec": 212.15,
-      "end_sec": 295.85
+      "start_sec": 197.989,
+      "end_sec": 288.038
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 2,
-      "start_sec": 1330.47,
-      "end_sec": 1420.02
+      "start_sec": 1315.022,
+      "end_sec": 1405.029
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 3,
-      "start_sec": 1.92,
-      "end_sec": 98.99
+      "start_sec": 99.016,
+      "end_sec": 188.98
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 3,
-      "start_sec": 1330.38,
-      "end_sec": 1420.02
+      "start_sec": 1314.939,
+      "end_sec": 1404.945
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 4,
-      "start_sec": 139.05,
-      "end_sec": 229.05
+      "start_sec": 143.018,
+      "end_sec": 233.024
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 4,
-      "start_sec": 1331.35,
-      "end_sec": 1420.9
+      "start_sec": 1316.065,
+      "end_sec": 1406.071
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 5,
-      "start_sec": 1.85,
-      "end_sec": 87.23
+      "start_sec": 88.005,
+      "end_sec": 178.053
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 5,
-      "start_sec": 1330.51,
-      "end_sec": 1420.06
+      "start_sec": 1315.064,
+      "end_sec": 1405.07
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 6,
-      "start_sec": 119.15,
-      "end_sec": 209.15
+      "start_sec": 122.998,
+      "end_sec": 213.004
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 6,
-      "start_sec": 1224.64,
-      "end_sec": 1314.91
+      "start_sec": 1314.939,
+      "end_sec": 1404.945
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 7,
-      "start_sec": 82.04,
-      "end_sec": 172.04
+      "start_sec": 86.044,
+      "end_sec": 176.051
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 7,
-      "start_sec": 1331.35,
-      "end_sec": 1420.9
+      "start_sec": 1316.065,
+      "end_sec": 1406.071
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 8,
-      "start_sec": 5.9,
-      "end_sec": 96.99
+      "start_sec": 100.017,
+      "end_sec": 189.981
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 8,
-      "start_sec": 1330.43,
-      "end_sec": 1419.98
+      "start_sec": 1350.391,
+      "end_sec": 1404.987
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 9,
-      "start_sec": 51.21,
-      "end_sec": 141.21
+      "start_sec": 55.055,
+      "end_sec": 145.02
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 9,
-      "start_sec": 1330.47,
-      "end_sec": 1420.02
+      "start_sec": 1315.022,
+      "end_sec": 1405.029
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 10,
-      "start_sec": 38.08,
-      "end_sec": 128.08
+      "start_sec": 42.042,
+      "end_sec": 132.049
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 10,
-      "start_sec": 1331.35,
-      "end_sec": 1420.9
+      "start_sec": 1348.264,
+      "end_sec": 1406.03
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 11,
-      "start_sec": 224.32,
-      "end_sec": 314.32
+      "start_sec": 77.995,
+      "end_sec": 168.043
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 11,
-      "start_sec": 1330.43,
-      "end_sec": 1419.98
+      "start_sec": 1314.98,
+      "end_sec": 1404.987
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 12,
-      "start_sec": 9.44,
-      "end_sec": 99.2
+      "start_sec": 174.049,
+      "end_sec": 264.014
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 12,
-      "start_sec": 1330.43,
-      "end_sec": 1419.98
+      "start_sec": 1314.98,
+      "end_sec": 1404.987
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 13,
-      "start_sec": 1331.31,
-      "end_sec": 1420.86
+      "start_sec": 1315.981,
+      "end_sec": 1405.988
     },
     {
       "imdb_id": "tt1515996",
@@ -206,111 +198,111 @@
       "season": 3,
       "episode": 14,
       "start_sec": 0,
-      "end_sec": 86.15
+      "end_sec": 90.007
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 14,
-      "start_sec": 1330.35,
-      "end_sec": 1419.89
+      "start_sec": 1314.897,
+      "end_sec": 1404.904
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 15,
-      "start_sec": 221.83,
-      "end_sec": 311.83
+      "start_sec": 0,
+      "end_sec": 90.007
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 15,
-      "start_sec": 1330.43,
-      "end_sec": 1419.98
+      "start_sec": 1314.98,
+      "end_sec": 1404.987
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 16,
-      "start_sec": 167.23,
-      "end_sec": 254.9
+      "start_sec": 167.042,
+      "end_sec": 257.048
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 16,
-      "start_sec": 1325.85,
-      "end_sec": 1420.9
+      "start_sec": 1333.374,
+      "end_sec": 1406.03
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 17,
-      "start_sec": 109.34,
-      "end_sec": 197.01
+      "start_sec": 109.026,
+      "end_sec": 198.99
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 17,
-      "start_sec": 1324.68,
-      "end_sec": 1419.98
+      "start_sec": 1314.98,
+      "end_sec": 1404.987
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 18,
-      "start_sec": 104.33,
-      "end_sec": 192
+      "start_sec": 104.021,
+      "end_sec": 193.985
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 18,
-      "start_sec": 1324.68,
-      "end_sec": 1419.98
+      "start_sec": 1314.981,
+      "end_sec": 1404.987
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 19,
-      "start_sec": 1325.56,
-      "end_sec": 1420.86
+      "start_sec": 1315.981,
+      "end_sec": 1405.988
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 20,
-      "start_sec": 78.3,
-      "end_sec": 165.97
+      "start_sec": 77.995,
+      "end_sec": 168.043
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 20,
-      "start_sec": 1324.67,
-      "end_sec": 1419.98
+      "start_sec": 1314.98,
+      "end_sec": 1404.987
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 21,
-      "start_sec": 186.29,
-      "end_sec": 276.29
+      "start_sec": 186.134,
+      "end_sec": 276.158
     },
     {
       "imdb_id": "tt1515996",
@@ -325,48 +317,48 @@
       "segment_type": "intro",
       "season": 3,
       "episode": 22,
-      "start_sec": 56.3,
-      "end_sec": 143.97
+      "start_sec": 56.056,
+      "end_sec": 146.063
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 22,
-      "start_sec": 1325.49,
-      "end_sec": 1420.96
+      "start_sec": 1325.533,
+      "end_sec": 1405.988
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 23,
-      "start_sec": 132.32,
-      "end_sec": 219.99
+      "start_sec": 132.007,
+      "end_sec": 222.013
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 23,
-      "start_sec": 1324.67,
-      "end_sec": 1419.98
+      "start_sec": 1314.98,
+      "end_sec": 1404.987
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "intro",
       "season": 3,
       "episode": 24,
-      "start_sec": 139.32,
-      "end_sec": 226.99
+      "start_sec": 139.014,
+      "end_sec": 229.02
     },
     {
       "imdb_id": "tt1515996",
       "segment_type": "outro",
       "season": 3,
       "episode": 24,
-      "start_sec": 1324.63,
-      "end_sec": 1419.95
+      "start_sec": 1314.94,
+      "end_sec": 1404.946
     },
     {
       "imdb_id": "tt1515996",
