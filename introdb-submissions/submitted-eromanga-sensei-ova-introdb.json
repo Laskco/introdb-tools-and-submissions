@@ -1,3 +1,28 @@
 {
-  "items": []
+  "items": [
+    {
+      "imdb_id": "tt9198184",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 1329.995,
+      "end_sec": 1421.045
+    },
+    {
+      "imdb_id": "tt9198184",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 63.981,
+      "end_sec": 154.029
+    },
+    {
+      "imdb_id": "tt9198184",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 1330.329,
+      "end_sec": 1421.045
+    }
+  ]
 }
