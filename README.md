@@ -32,19 +32,6 @@ The relabeler's timestamp-preservation rate is **100% by design**: it keeps the 
 
 The detector modifies chapter metadata in place. Review generated markers before submitting anything.
 
-### Correcting one-off themes
-
-The detector relies on repeated audio. A one-off OP/ED, or one with an episode-specific mix, cannot be inferred safely from audio alone. For a reviewed correction that should survive future detector runs, create `op_ed_overrides.json` in that release folder:
-
-```json
-{
-  "12": { "outro": [1307.5, 1397.4] },
-  "13": { "intro": null }
-}
-```
-
-Use `intro` or `outro`; provide a `[start_sec, end_sec]` pair to replace a detection, or `null` to remove a false detection. The normal detection mode applies this file automatically before writing chapters.
-
 ## Submission archive
 
 `introdb-submissions/` holds one finalized JSON archive per submitted show. These files contain IMDb/TVDB identifiers, season and episode numbers, segment types, and timestamps only. No API keys, browser sessions, accounts, media files, or local machine paths are included.
