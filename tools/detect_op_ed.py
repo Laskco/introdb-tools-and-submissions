@@ -312,6 +312,73 @@ def find_episode_files(folder):
                 files.setdefault(n, os.path.join(folder, fn))
     return files
 
+def load_manual_overrides(folder):
+    """Load optional per-release corrections without show-specific hard-coding.
+
+    A release can contain ``op_ed_overrides.json`` with episode-number keys and
+    ``intro``/``outro`` values. Each value is either ``[start_sec, end_sec]`` or
+    ``null`` to explicitly remove a false detection.
+    """
+    override_path = os.path.join(folder, "op_ed_overrides.json")
+    if not os.path.isfile(override_path):
+        return {}, []
+    try:
+        raw = json.load(open(override_path, encoding="utf-8"))
+    except (OSError, ValueError) as exc:
+        return {}, [f"Could not read {os.path.basename(override_path)}: {exc}"]
+    if not isinstance(raw, dict):
+        return {}, [f"Ignored {os.path.basename(override_path)}: expected a JSON object."]
+
+    overrides = {}
+    warnings = []
+    for raw_episode, change in raw.items():
+        try:
+            episode = int(raw_episode)
+        except (TypeError, ValueError):
+            warnings.append(f"Ignored override with invalid episode key {raw_episode!r}.")
+            continue
+        if not isinstance(change, dict):
+            warnings.append(f"Ignored E{episode:02}: expected an object with intro/outro values.")
+            continue
+        valid = {}
+        for segment in ("intro", "outro"):
+            if segment not in change:
+                continue
+            value = change[segment]
+            if value is None:
+                valid[segment] = None
+                continue
+            if not isinstance(value, (list, tuple)) or len(value) != 2:
+                warnings.append(f"Ignored E{episode:02} {segment}: expected [start_sec, end_sec] or null.")
+                continue
+            try:
+                start, end = float(value[0]), float(value[1])
+            except (TypeError, ValueError):
+                warnings.append(f"Ignored E{episode:02} {segment}: timestamps must be numeric.")
+                continue
+            if end <= start:
+                warnings.append(f"Ignored E{episode:02} {segment}: end must be after start.")
+                continue
+            valid[segment] = [round(start, 3), round(end, 3)]
+        if valid:
+            overrides[episode] = valid
+    return overrides, warnings
+
+def apply_manual_overrides(results, overrides, durations):
+    applied = []
+    warnings = []
+    for episode, change in sorted(overrides.items()):
+        if episode not in results:
+            warnings.append(f"Ignored override for E{episode:02}: no matching episode file.")
+            continue
+        for segment, value in change.items():
+            if value is not None and value[1] > durations[episode] + 0.5:
+                warnings.append(f"Ignored E{episode:02} {segment}: end exceeds media duration.")
+                continue
+            results[episode][segment] = value
+            applied.append((episode, segment, value))
+    return applied, warnings
+
 def normalized_chapter_label(label):
     return re.sub(r'\s+', ' ', (label or "").strip().lower())
 
@@ -847,6 +914,20 @@ def main(folder, remove_spec=""):
                 else:
                     r[seg] = [round(r[seg][0] + EDGE_TRIM, 1), round(r[seg][1] - EDGE_TRIM, 1)]
 
+    # A unique ED cannot be inferred safely from repeat-audio matching. Keep
+    # those release-specific corrections in a reusable sidecar file instead of
+    # baking timestamps into the general detector.
+    overrides, override_warnings = load_manual_overrides(folder)
+    applied_overrides, apply_warnings = apply_manual_overrides(results, overrides, durs)
+    manual_segments = {(episode, segment) for episode, segment, _ in applied_overrides}
+    for warning in override_warnings + apply_warnings:
+        print(f"Override warning: {warning}")
+    if applied_overrides:
+        print("Applying op_ed_overrides.json:")
+        for episode, segment, value in applied_overrides:
+            text = "none" if value is None else f"{value[0]:.3f}-{value[1]:.3f}s"
+            print(f"  E{episode:02} {segment}: {text}")
+
     # consensus post-processing: flag length outliers. Do NOT invent markers -- if OP/ED wasn't
     # actually detected, leave it empty (better no marker than a guessed one).
     def med(xs): return sorted(xs)[len(xs)//2] if xs else None
@@ -856,7 +937,7 @@ def main(folder, remove_spec=""):
     for n in nums:
         r = results[n]
         for seg, m in (("intro", opl), ("outro", edl)):
-            if r[seg] and m and abs((r[seg][1]-r[seg][0]) - m) > 0.3*m:
+            if r[seg] and m and (n, seg) not in manual_segments and abs((r[seg][1]-r[seg][0]) - m) > 0.3*m:
                 r[seg+"_flag"] = "verify (length off vs median)"
     print()
     for n in nums:

@@ -31,6 +31,7 @@ echo   2 = Edit existing chapters only
 echo   3 = Export existing OP/ED chapters to IntroDB JSON, with review/edit prompts
 echo       Asks show name, IMDb, optional TVDB, and season per show folder.
 echo       Mode 3 uses release-wide OP/Opening and ED/Ending/Credits priority.
+echo       Detection applies a valid op_ed_overrides.json in the release folder.
 set /p "mode=Mode [1]: "
 if "%mode%"=="" set "mode=1"
 echo.
