@@ -46,13 +46,19 @@ _win = np.hanning(FRAME).astype(np.float32)
 
 def fingerprint(a):
     if len(a) < FRAME * 2:
-        return np.zeros(0, np.uint32)
+        return np.zeros(0, np.uint32), np.empty((0, NBANDS), np.float32)
     n = 1 + (len(a) - FRAME) // HOP
-    idx = np.arange(FRAME)[None, :] + HOP * np.arange(n)[:, None]
-    spec = np.abs(np.fft.rfft(a[idx] * _win, axis=1))
+    # Keep frame allocation bounded for long episodes. The older one-shot index
+    # matrix could use hundreds of MB before comparison had even started.
     bands = np.empty((n, NBANDS), np.float32)
-    for m, sel in enumerate(_bandsel):
-        bands[:, m] = spec[:, sel].mean(axis=1) if len(sel) else 0.0
+    batch = 512
+    offsets = np.arange(FRAME)[None, :]
+    for first in range(0, n, batch):
+        count = min(batch, n - first)
+        idx = offsets + HOP * np.arange(first, first + count)[:, None]
+        spec = np.abs(np.fft.rfft(a[idx] * _win, axis=1))
+        for m, sel in enumerate(_bandsel):
+            bands[first:first + count, m] = spec[:, sel].mean(axis=1) if len(sel) else 0.0
     bands = np.log1p(bands)
     d = bands[:, :-1] - bands[:, 1:]          # n x (NBANDS-1)
     dd = d[1:] - d[:-1]                        # (n-1) x (NBANDS-1)
@@ -262,9 +268,14 @@ def epnum(fn):
     if m: return int(m.group(1))
     m = re.search(r'\[(\d{1,3})(?:v\d)?\]', fn, re.I)
     if m: return int(m.group(1))
-    # digits delimited by a separator and NOT followed by a letter (avoids 720p, x264, hex ids)
-    cands = re.findall(r'[-_ ]\s*_*(\d{1,3})(?:v\d)?(?=[-_ .\(\)\[\]]|$)', fn)   # tolerate a vN version suffix (e.g. 07v2)
-    return int(cands[-1]) if cands else None
+    # Prefer the first delimiter-number. Release names normally put the episode
+    # first, while titles can contain a year, count, or card number later.
+    cands = []
+    for match in re.finditer(r'[-_ ]\s*_*(\d{1,3})(?:v\d)?(?=[-_ .\(\)\[\]]|$)', fn):
+        if re.search(r'season\s*$', fn[:match.start()], re.I):
+            continue
+        cands.append(int(match.group(1)))
+    return cands[0] if cands else None
 
 def parse_removals(spec):
     """Parse removal specs like: 12, 12:both, 3:op, 7:ed, 1-3:op."""
@@ -306,7 +317,7 @@ def parse_removals(spec):
 def find_episode_files(folder):
     files = {}
     for fn in sorted(os.listdir(folder)):
-        if fn.lower().endswith((".mkv", ".mp4", ".avi")) and not re.search(r'\bNC(?:OP|ED)?\b|Clean|Menu|\bSP\b|Creditless|Extra|Bonus|Special', fn, re.I):
+        if fn.lower().endswith((".mkv", ".mp4", ".avi")) and not re.search(r'\bNC(?:OP|ED)?\b|\bClean\b|\bMenu\b|\bSP\d*\b|\bCreditless\b|\bExtra\b|\bBonus\b|\bSpecial\s*(?:\d+|Episode)\b', fn, re.I):
             n = epnum(fn)
             if n is not None:
                 files.setdefault(n, os.path.join(folder, fn))
