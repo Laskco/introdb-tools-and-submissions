@@ -4610,12 +4610,12 @@
     },
     {
       "imdb_id": "tt0988818",
-      "segment_type": "intro",
+      "tvdb_id": 79895,
+      "segment_type": "outro",
       "season": 6,
       "episode": 4,
       "start_sec": 1349.89,
-      "end_sec": 1439.98,
-      "tvdb_id": 79895
+      "end_sec": 1439.98
     },
     {
       "imdb_id": "tt0988818",
