@@ -1866,20 +1866,20 @@
     {
       "imdb_id": "tt0988818",
       "tvdb_id": 79895,
-      "segment_type": "outro",
-      "season": 3,
-      "episode": 6,
-      "start_sec": 1270,
-      "end_sec": 1450
-    },
-    {
-      "imdb_id": "tt0988818",
-      "tvdb_id": 79895,
       "segment_type": "recap",
       "season": 3,
       "episode": 6,
       "start_sec": 1450,
       "end_sec": 1455.1
+    },
+    {
+      "imdb_id": "tt0988818",
+      "tvdb_id": 79895,
+      "segment_type": "outro",
+      "season": 3,
+      "episode": 6,
+      "start_sec": 1270,
+      "end_sec": 1450
     },
     {
       "imdb_id": "tt0988818",
@@ -2613,20 +2613,20 @@
     {
       "imdb_id": "tt0988818",
       "tvdb_id": 79895,
-      "segment_type": "outro",
-      "season": 3,
-      "episode": 47,
-      "start_sec": 1176.9,
-      "end_sec": 1356.9
-    },
-    {
-      "imdb_id": "tt0988818",
-      "tvdb_id": 79895,
       "segment_type": "recap",
       "season": 3,
       "episode": 47,
       "start_sec": 1356.9,
       "end_sec": 1384.1
+    },
+    {
+      "imdb_id": "tt0988818",
+      "tvdb_id": 79895,
+      "segment_type": "outro",
+      "season": 3,
+      "episode": 47,
+      "start_sec": 1176.9,
+      "end_sec": 1356.9
     },
     {
       "imdb_id": "tt0988818",
@@ -2694,11 +2694,20 @@
     {
       "imdb_id": "tt0988818",
       "tvdb_id": 79895,
+      "segment_type": "recap",
+      "season": 3,
+      "episode": 51,
+      "start_sec": 1450.2,
+      "end_sec": 1455.2
+    },
+    {
+      "imdb_id": "tt0988818",
+      "tvdb_id": 79895,
       "segment_type": "outro",
       "season": 3,
       "episode": 51,
       "start_sec": 1272,
-      "end_sec": 1452
+      "end_sec": 1450.2
     },
     {
       "imdb_id": "tt0988818",
@@ -3846,20 +3855,20 @@
     {
       "imdb_id": "tt0988818",
       "tvdb_id": 79895,
-      "segment_type": "outro",
-      "season": 5,
-      "episode": 13,
-      "start_sec": 1214.212,
-      "end_sec": 1394.212
-    },
-    {
-      "imdb_id": "tt0988818",
-      "tvdb_id": 79895,
       "segment_type": "recap",
       "season": 5,
       "episode": 13,
       "start_sec": 1394.212,
       "end_sec": 1420.002
+    },
+    {
+      "imdb_id": "tt0988818",
+      "tvdb_id": 79895,
+      "segment_type": "outro",
+      "season": 5,
+      "episode": 13,
+      "start_sec": 1214.212,
+      "end_sec": 1394.212
     },
     {
       "imdb_id": "tt0988818",
