@@ -1,0 +1,472 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 40.208,
+      "end_sec": 130.166,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 1320.208,
+      "end_sec": 1410.166,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 82.125,
+      "end_sec": 172.208,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 1283.708,
+      "end_sec": 1333.208,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 3,
+      "start_sec": 102.102,
+      "end_sec": 192.067,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 3,
+      "start_sec": 1257.007,
+      "end_sec": 1346.972,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 4,
+      "start_sec": 37.12,
+      "end_sec": 127.085,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 4,
+      "start_sec": 1252.085,
+      "end_sec": 1342.05,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 5,
+      "start_sec": 58.141,
+      "end_sec": 148.064,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 5,
+      "start_sec": 1261.094,
+      "end_sec": 1351.101,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 6,
+      "start_sec": 136.094,
+      "end_sec": 226.101,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 6,
+      "start_sec": 1257.048,
+      "end_sec": 1347.055,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 7,
+      "start_sec": 81.039,
+      "end_sec": 171.087,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 7,
+      "start_sec": 1256.131,
+      "end_sec": 1346.137,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 8,
+      "start_sec": 61.102,
+      "end_sec": 151.151,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 8,
+      "start_sec": 1266.141,
+      "end_sec": 1356.106,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 9,
+      "start_sec": 68.109,
+      "end_sec": 158.116,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 9,
+      "start_sec": 1303.053,
+      "end_sec": 1393.184,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 10,
+      "start_sec": 51.176,
+      "end_sec": 141.099,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 10,
+      "start_sec": 1237.112,
+      "end_sec": 1327.16,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 11,
+      "start_sec": 28.153,
+      "end_sec": 118.118,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 11,
+      "start_sec": 1290.081,
+      "end_sec": 1367.158,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 12,
+      "start_sec": 73.114,
+      "end_sec": 163.121,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 12,
+      "start_sec": 1288.955,
+      "end_sec": 1339.047,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 13,
+      "start_sec": 64.022,
+      "end_sec": 154.07,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 13,
+      "start_sec": 1269.102,
+      "end_sec": 1359.109,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 1,
+      "start_sec": 119.16,
+      "end_sec": 209.042,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 1,
+      "start_sec": 1306.556,
+      "end_sec": 1382.757,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 2,
+      "start_sec": 24.149,
+      "end_sec": 114.114,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 2,
+      "start_sec": 1320.111,
+      "end_sec": 1348.89,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 3,
+      "start_sec": 95.095,
+      "end_sec": 185.06,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 3,
+      "start_sec": 1348.723,
+      "end_sec": 1409.993,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 4,
+      "start_sec": 66.107,
+      "end_sec": 156.156,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 4,
+      "start_sec": 1259.092,
+      "end_sec": 1349.14,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 5,
+      "start_sec": 31.114,
+      "end_sec": 121.079,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 5,
+      "start_sec": 1257.132,
+      "end_sec": 1347.097,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 6,
+      "start_sec": 90.131,
+      "end_sec": 180.138,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 6,
+      "start_sec": 1255.13,
+      "end_sec": 1345.178,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 7,
+      "start_sec": 79.12,
+      "end_sec": 169.085,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 7,
+      "start_sec": 1258.091,
+      "end_sec": 1348.098,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 8,
+      "start_sec": 115.156,
+      "end_sec": 205.08,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 8,
+      "start_sec": 1240.073,
+      "end_sec": 1330.121,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 9,
+      "start_sec": 115.156,
+      "end_sec": 205.038,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 9,
+      "start_sec": 1320.111,
+      "end_sec": 1410.076,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 10,
+      "start_sec": 23.106,
+      "end_sec": 113.113,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 10,
+      "start_sec": 1320.111,
+      "end_sec": 1410.118,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 11,
+      "start_sec": 53.136,
+      "end_sec": 143.059,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 11,
+      "start_sec": 1255.046,
+      "end_sec": 1345.011,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 12,
+      "start_sec": 53.178,
+      "end_sec": 143.059,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 12,
+      "start_sec": 1345.971,
+      "end_sec": 1409.993,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "intro",
+      "season": 2,
+      "episode": 13,
+      "start_sec": 27.068,
+      "end_sec": 117.075,
+      "tvdb_id": 88391
+    },
+    {
+      "imdb_id": "tt1409062",
+      "segment_type": "outro",
+      "season": 2,
+      "episode": 13,
+      "start_sec": 1121.037,
+      "end_sec": 1211.169,
+      "tvdb_id": 88391
+    }
+  ]
+}

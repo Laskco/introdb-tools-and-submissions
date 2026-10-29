@@ -155,6 +155,62 @@ def shared_segments(fpA, fpB, featA, featB):
             kept.append(s)
     return kept
 
+def match_reference_features(features, reference, min_score=0.55, min_margin=0.15):
+    """Locate a complete, verified music reference; reject weak or ambiguous matches.
+
+    Uses the spectral features already returned by fingerprint(). Unlike exact
+    hash runs, this can retain a song's opening bars across mix/encoding changes.
+    Reference boundaries must be verified first; this never infers their length.
+    Audio under dialogue is not automatically skippable: callers still need to
+    check actual credit/sequence boundaries when the video uses a different edit.
+    """
+    target = np.asarray(features, dtype=np.float64)
+    needle = np.asarray(reference, dtype=np.float64)
+    if target.ndim != 2 or needle.ndim != 2 or target.shape[1] != needle.shape[1]:
+        raise ValueError("Reference and target must have the same feature bands.")
+    if not np.isfinite(target).all() or not np.isfinite(needle).all():
+        raise ValueError("Reference features must be finite.")
+    if np.any(target < 0) or np.any(needle < 0):
+        raise ValueError("Reference features must be nonnegative spectral values.")
+    if not (0 <= min_score <= 1 and 0 <= min_margin <= 1):
+        raise ValueError("Reference confidence thresholds must be between 0 and 1.")
+    n, m = len(target), len(needle)
+    if m < 2 or n < m:
+        return None
+
+    def whiten(values):
+        values = np.log(np.maximum(values, 1e-4))
+        values -= values.mean(axis=1, keepdims=True)
+        return values - values.mean(axis=0, keepdims=True)
+
+    target, needle = whiten(target), whiten(needle)
+    reference_energy = float(np.square(needle).sum())
+    if reference_energy < 1e-10:
+        return None
+    size = 1 << (n + m - 2).bit_length()
+    spectrum = (np.fft.rfft(target, size, axis=0) *
+                np.fft.rfft(needle[::-1], size, axis=0)).sum(axis=1)
+    correlation = np.fft.irfft(spectrum, size)[m - 1:n]
+    energy = np.concatenate(([0.0], np.cumsum(np.square(target).sum(axis=1))))
+    window_energy = np.maximum(energy[m:] - energy[:-m], 0.0)
+    valid = window_energy > 1e-10
+    scores = np.full(len(correlation), -1.0)
+    scores[valid] = correlation[valid] / np.sqrt(window_energy[valid] * reference_energy)
+    scores = np.clip(scores, -1.0, 1.0)
+    start = int(np.argmax(scores))
+    score = float(scores[start])
+    # Nearby shifts describe the same occurrence, not a competing song match.
+    competing = scores.copy()
+    radius = max(1, int(round(5.0 * SR / HOP)))
+    competing[max(0, start - radius):start + radius + 1] = -1.0
+    runner_up = max(0.0, float(competing.max()))
+    if score < min_score or score - runner_up < min_margin:
+        return None
+    return {"start_frame": start, "end_frame": start + m,
+            "start_sec": frame_to_sec(start), "end_sec": frame_to_sec(start + m),
+            "score": score, "runner_up": runner_up}
+
+
 def sec2ts(s):
     h = int(s // 3600); m = int(s % 3600 // 60)
     return f"{h:02d}:{m:02d}:{s - h*3600 - m*60:06.3f}"
