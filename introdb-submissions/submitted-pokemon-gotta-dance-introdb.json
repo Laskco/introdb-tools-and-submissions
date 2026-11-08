@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt0431991",
+      "segment_type": "outro",
+      "start_sec": 1126.959,
+      "end_sec": 1302.468,
+      "is_movie": true
+    },
+    {
+      "imdb_id": "tt0431991",
+      "segment_type": "post-credits",
+      "start_sec": 1302.468,
+      "end_sec": 1332.164,
+      "is_movie": true
+    }
+  ]
+}
