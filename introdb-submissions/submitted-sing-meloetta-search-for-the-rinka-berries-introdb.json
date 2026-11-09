@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt3427744",
+      "is_movie": true,
+      "segment_type": "intro",
+      "start_sec": 0,
+      "end_sec": 8.133
+    },
+    {
+      "imdb_id": "tt3427744",
+      "is_movie": true,
+      "segment_type": "outro",
+      "start_sec": 430.555,
+      "end_sec": 440.564
+    }
+  ]
+}
