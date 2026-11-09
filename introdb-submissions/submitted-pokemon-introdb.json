@@ -21610,6 +21610,24 @@
       "episode": 118
     },
     {
+      "segment_type": "intro",
+      "season": 19,
+      "episode": 119,
+      "start_sec": 68.569,
+      "end_sec": 156.656,
+      "imdb_id": "tt0168366",
+      "tvdb_id": 76703
+    },
+    {
+      "segment_type": "outro",
+      "season": 19,
+      "episode": 119,
+      "start_sec": 1304.512,
+      "end_sec": 1385.467,
+      "imdb_id": "tt0168366",
+      "tvdb_id": 76703
+    },
+    {
       "imdb_id": "tt0168366",
       "segment_type": "intro",
       "start_sec": 105.724,
@@ -21626,6 +21644,24 @@
       "tvdb_id": 76703,
       "season": 19,
       "episode": 120
+    },
+    {
+      "segment_type": "intro",
+      "season": 19,
+      "episode": 121,
+      "start_sec": 25.526,
+      "end_sec": 113.614,
+      "imdb_id": "tt0168366",
+      "tvdb_id": 76703
+    },
+    {
+      "segment_type": "outro",
+      "season": 19,
+      "episode": 121,
+      "start_sec": 1249.54,
+      "end_sec": 1330.496,
+      "imdb_id": "tt0168366",
+      "tvdb_id": 76703
     },
     {
       "imdb_id": "tt0168366",
@@ -21700,6 +21736,24 @@
       "episode": 125
     },
     {
+      "segment_type": "intro",
+      "season": 19,
+      "episode": 126,
+      "start_sec": 23.523,
+      "end_sec": 111.612,
+      "imdb_id": "tt0168366",
+      "tvdb_id": 76703
+    },
+    {
+      "segment_type": "outro",
+      "season": 19,
+      "episode": 126,
+      "start_sec": 1304.595,
+      "end_sec": 1385.509,
+      "imdb_id": "tt0168366",
+      "tvdb_id": 76703
+    },
+    {
       "imdb_id": "tt0168366",
       "segment_type": "intro",
       "start_sec": 62.724,
@@ -21716,6 +21770,24 @@
       "tvdb_id": 76703,
       "season": 19,
       "episode": 127
+    },
+    {
+      "segment_type": "intro",
+      "season": 19,
+      "episode": 128,
+      "start_sec": 22.523,
+      "end_sec": 110.611,
+      "imdb_id": "tt0168366",
+      "tvdb_id": 76703
+    },
+    {
+      "segment_type": "outro",
+      "season": 19,
+      "episode": 128,
+      "start_sec": 1359.483,
+      "end_sec": 1440.564,
+      "imdb_id": "tt0168366",
+      "tvdb_id": 76703
     },
     {
       "imdb_id": "tt0168366",
