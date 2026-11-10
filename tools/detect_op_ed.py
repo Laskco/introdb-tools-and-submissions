@@ -10,6 +10,7 @@ Output: prints OP/ED timestamps per episode and writes op_ed_detected.json in th
 import subprocess, sys, os, re, json, shutil
 import numpy as np
 from collections import defaultdict
+from xml.sax.saxutils import escape
 
 def resolve_executable(name, environment_variable):
     """Use an explicit executable path first, then fall back to PATH."""
@@ -309,10 +310,11 @@ def write_existing_chapters(path, ch):
     x = ['<?xml version="1.0" encoding="UTF-8"?>', '<!DOCTYPE Chapters SYSTEM "matroska.dtd">', "<Chapters>", "<EditionEntry>"]
     for t, l in ch:
         x += ["<ChapterAtom>", f"<ChapterTimeStart>{sec2ts(t)}</ChapterTimeStart>",
-              f"<ChapterDisplay><ChapterString>{l}</ChapterString><ChapterLanguage>eng</ChapterLanguage></ChapterDisplay>", "</ChapterAtom>"]
+              f"<ChapterDisplay><ChapterString>{escape(l)}</ChapterString><ChapterLanguage>eng</ChapterLanguage></ChapterDisplay>", "</ChapterAtom>"]
     x += ["</EditionEntry>", "</Chapters>"]
     tmp = path + ".chapters.xml"
-    open(tmp, "w", encoding="utf-8").write("\n".join(x))
+    with open(tmp, "w", encoding="utf-8") as chapter_file:
+        chapter_file.write("\n".join(x))
     rc = subprocess.run([MKVPROPEDIT, path, "--chapters", tmp], capture_output=True).returncode
     os.remove(tmp)
     return rc == 0
