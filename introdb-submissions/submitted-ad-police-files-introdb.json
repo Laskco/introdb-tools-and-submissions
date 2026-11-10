@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 1437.394,
+      "end_sec": 1589.096,
+      "imdb_id": "tt0088655",
+      "tvdb_id": 393077
+    },
+    {
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 1511.343,
+      "end_sec": 1668.285,
+      "imdb_id": "tt0088655",
+      "tvdb_id": 393077
+    },
+    {
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 3,
+      "start_sec": 1476.808,
+      "end_sec": 1631.08,
+      "imdb_id": "tt0088655",
+      "tvdb_id": 393077
+    }
+  ]
+}
