@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt1868555",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 8,
+      "start_sec": 1190,
+      "end_sec": 1254,
+      "tvdb_id": 266666
+    },
+    {
+      "imdb_id": "tt1868555",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 10,
+      "start_sec": 1174,
+      "end_sec": 1352,
+      "tvdb_id": 266666
+    }
+  ]
+}

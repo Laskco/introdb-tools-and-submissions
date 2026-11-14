@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt2878716",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 0,
+      "end_sec": 10.5,
+      "tvdb_id": 333548
+    },
+    {
+      "imdb_id": "tt2878716",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 0,
+      "end_sec": 6.8,
+      "tvdb_id": 333548
+    },
+    {
+      "imdb_id": "tt2878716",
+      "segment_type": "intro",
+      "season": 1,
+      "episode": 3,
+      "start_sec": 0,
+      "end_sec": 11.5,
+      "tvdb_id": 333548
+    }
+  ]
+}

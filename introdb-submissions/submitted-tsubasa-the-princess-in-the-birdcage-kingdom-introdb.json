@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt0466551",
+      "segment_type": "outro",
+      "season": 0,
+      "episode": 0,
+      "start_sec": 1916.75,
+      "end_sec": 2007.75,
+      "is_movie": true,
+      "tvdb_id": 30022
+    }
+  ]
+}
