@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt14292584",
+      "tvdb_id": 343404,
+      "tmdb_id": 808604,
+      "is_movie": true,
+      "segment_type": "outro",
+      "start_sec": 3435.515,
+      "end_sec": 3603.6
+    }
+  ]
+}
