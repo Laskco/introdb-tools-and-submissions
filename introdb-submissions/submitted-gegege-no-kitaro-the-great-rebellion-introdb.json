@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt12256808",
+      "tmdb_id": 803233,
+      "is_movie": true,
+      "segment_type": "outro",
+      "start_sec": 2799.213,
+      "end_sec": 2872.702
+    }
+  ]
+}

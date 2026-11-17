@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt0291419",
+      "tvdb_id": 82970,
+      "season": 1,
+      "episode": 2,
+      "segment_type": "outro",
+      "start_sec": 1332.331,
+      "end_sec": 1413.454
+    },
+    {
+      "imdb_id": "tt0291419",
+      "tvdb_id": 82970,
+      "season": 1,
+      "episode": 4,
+      "segment_type": "outro",
+      "start_sec": 1330.963,
+      "end_sec": 1414.455
+    }
+  ]
+}

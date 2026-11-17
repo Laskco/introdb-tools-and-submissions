@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 1,
+      "start_sec": 2151.149,
+      "end_sec": 2247.245,
+      "imdb_id": "tt8023846",
+      "tvdb_id": 80768
+    },
+    {
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 2,
+      "start_sec": 2303.885,
+      "end_sec": 2399.939,
+      "imdb_id": "tt8023846",
+      "tvdb_id": 80768
+    },
+    {
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 3,
+      "start_sec": 2617.74,
+      "end_sec": 2713.836,
+      "imdb_id": "tt8023846",
+      "tvdb_id": 80768
+    },
+    {
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 4,
+      "start_sec": 2189.979,
+      "end_sec": 2286.033,
+      "imdb_id": "tt8023846",
+      "tvdb_id": 80768
+    }
+  ]
+}
