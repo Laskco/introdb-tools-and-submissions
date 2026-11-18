@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt2859246",
+      "tmdb_id": 304023,
+      "is_movie": true,
+      "segment_type": "outro",
+      "start_sec": 5894.307,
+      "end_sec": 6095.091
+    },
+    {
+      "imdb_id": "tt2859246",
+      "tmdb_id": 304023,
+      "is_movie": true,
+      "segment_type": "post-credits",
+      "start_sec": 6095.091,
+      "end_sec": 6127.122
+    }
+  ]
+}
