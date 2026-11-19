@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt41021174",
+      "tmdb_id": 850647,
+      "is_movie": true,
+      "segment_type": "outro",
+      "start_sec": 210.21,
+      "end_sec": 331.416
+    }
+  ]
+}

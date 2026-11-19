@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt13386730",
+      "tvdb_id": 48495,
+      "tmdb_id": 267962,
+      "is_movie": true,
+      "segment_type": "outro",
+      "start_sec": 4139.01,
+      "end_sec": 4265.344
+    }
+  ]
+}
