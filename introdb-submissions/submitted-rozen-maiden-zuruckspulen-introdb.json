@@ -148,6 +148,24 @@
       "imdb_id": "tt3124820",
       "segment_type": "intro",
       "season": 1,
+      "episode": 9,
+      "start_sec": 123.332,
+      "end_sec": 213.213,
+      "tvdb_id": 271440
+    },
+    {
+      "imdb_id": "tt3124820",
+      "segment_type": "outro",
+      "season": 1,
+      "episode": 9,
+      "start_sec": 1330.037,
+      "end_sec": 1420.044,
+      "tvdb_id": 271440
+    },
+    {
+      "imdb_id": "tt3124820",
+      "segment_type": "intro",
+      "season": 1,
       "episode": 10,
       "start_sec": 15.015,
       "end_sec": 104.98,
