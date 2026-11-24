@@ -24650,6 +24650,42 @@
       "end_sec": 1416.498,
       "imdb_id": "tt0168366",
       "tvdb_id": 76703
+    },
+    {
+      "imdb_id": "tt0168366",
+      "tvdb_id": 76703,
+      "season": 20,
+      "episode": 157,
+      "segment_type": "intro",
+      "start_sec": 117.284,
+      "end_sec": 207.374
+    },
+    {
+      "imdb_id": "tt0168366",
+      "tvdb_id": 76703,
+      "season": 20,
+      "episode": 157,
+      "segment_type": "outro",
+      "start_sec": 1326.492,
+      "end_sec": 1416.498
+    },
+    {
+      "imdb_id": "tt0168366",
+      "tvdb_id": 76703,
+      "season": 20,
+      "episode": 158,
+      "segment_type": "intro",
+      "start_sec": 141.892,
+      "end_sec": 231.982
+    },
+    {
+      "imdb_id": "tt0168366",
+      "tvdb_id": 76703,
+      "season": 20,
+      "episode": 158,
+      "segment_type": "outro",
+      "start_sec": 1326.492,
+      "end_sec": 1416.498
     }
   ]
 }
