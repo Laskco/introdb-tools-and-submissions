@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt2131586",
+      "tvdb_id": 10667,
+      "tmdb_id": 122583,
+      "is_movie": true,
+      "segment_type": "outro",
+      "start_sec": 6274.56,
+      "end_sec": 6538.616
+    },
+    {
+      "imdb_id": "tt2131586",
+      "tvdb_id": 10667,
+      "tmdb_id": 122583,
+      "is_movie": true,
+      "segment_type": "post-credits",
+      "start_sec": 6538.616,
+      "end_sec": 6597.306
+    }
+  ]
+}

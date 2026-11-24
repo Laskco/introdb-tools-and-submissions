@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "imdb_id": "tt12093860",
+      "tvdb_id": 134706,
+      "tmdb_id": 662638,
+      "is_movie": true,
+      "segment_type": "outro",
+      "start_sec": 6252.017,
+      "end_sec": 6511.797
+    },
+    {
+      "imdb_id": "tt12093860",
+      "tvdb_id": 134706,
+      "tmdb_id": 662638,
+      "is_movie": true,
+      "segment_type": "post-credits",
+      "start_sec": 6511.797,
+      "end_sec": 6594.734
+    }
+  ]
+}
